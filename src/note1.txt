@@ -1,0 +1,5 @@
+ //How to add images to JFrame with JPanel
+ JPanel bg = new JPanel();
+        BufferedImage myPicture = ImageIO.read(new File("C:\\Users\\giann\\OneDrive\\Εικόνες\\green1.jpg"));
+        JLabel picLabel = new JLabel(new ImageIcon(myPicture));
+        bg.add(picLabel);
